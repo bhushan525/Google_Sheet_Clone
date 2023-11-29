@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exel Sheet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="button-container">
+        <button id="bold-button">B</button>
+        <button id="italic-button">I</button>
+        <button id="underline-button">U</button>
+        <button id="left-align">left</button>
+        <button id="center-align">center</button>
+        <button id="right-align">right</button>
+        <select id="font-size">
+            <option value="14px">14</option>
+            <option value="16px">16</option>
+            <option value="18px">18</option>
+            <option value="20px">20</option>
+        </select>
+        <select id="font-family">
+            <option value="serif">serif</option>
+            <option value="sans-serif">sans-serif</option>
+            <option value="cursive">cursive</option>
+            <option value="monospace">monospace</option>
+        </select>
+        <label for="BgColor" style="color: black;">BgColor</label>
+        <input type="Color" id="bg-color">
+        <label for="BgColor" style="color: black;">TextColor</label>
+        <input type="Color" id="text-color">
+        <button id="cut">Cut</button>
+        <button id="copy">Copy</button>
+        <button id="paste">Paste</button>
+    </div>
+
+    <table id="my-table">
+        <thead>
+            <tr id="table-heading-row">
+                <th id="current-cell">no cell selected</th>
+                <!-- <th>A</th>
+                <th>B</th> -->
+            </tr>
+        </thead>
+        <tbody id="table-body">
+            <!-- <tr>
+                <th>1</th>
+                <td> </td>
+            </tr> -->
+        </tbody>
+    </table>
+
+</body>
+<script src="script.js"></script>
+
+</html>
